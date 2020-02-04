@@ -1,0 +1,28 @@
+		<style type="text/css">
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				color: #665544;
+				padding: 0 15% 0 15%;
+				}
+			h1 {
+				text-align:center;
+				color:blue;
+				font-family: 'DancingScriptRegular';
+				font-size:400%;
+				padding: 12px;
+				}
+			h2{
+				padding: 12px;
+				}
+			p {
+				text-align: center;
+				font-family: 'DancingScriptRegular';
+				font-weight: normal;
+				font-style: normal;
+				padding: 0 15% 0 15%;
+				font-size:200%;
+				}
+			i, a, a:hover, a:visited {
+				color:darkgreen;}
+		</style>
+		
