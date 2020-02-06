@@ -29,11 +29,14 @@
 				}
 			i, a, a:hover, a:visited {
 				color:darkgreen;}
-			foot {
-				font-family: Helvetica, Arial, sans-serif;
-				color: red;
-				padding: 5px;
-				font-size:90%;
-				}
+			.footer {
+			  position: fixed;
+			  left: 0;
+			  bottom: 0;
+			  width: 100%;
+			  background-color: red;
+			  color: white;
+			  text-align: center;
+			}
 		</style>
 		
