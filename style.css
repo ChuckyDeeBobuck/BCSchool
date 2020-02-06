@@ -46,8 +46,8 @@
 
 			li a {
 			  display: block;
+			  margin: 5;
 			  width: 60px;
-			  background-color: #dddddd;
 			}
 		</style>
 		
