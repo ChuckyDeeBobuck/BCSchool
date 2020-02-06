@@ -29,5 +29,10 @@
 				}
 			i, a, a:hover, a:visited {
 				color:darkgreen;}
+			foot {
+				font-family: Helvetica, Arial, sans-serif;
+				color: red;
+				padding: 5px;
+				}
 		</style>
 		
