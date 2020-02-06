@@ -1,4 +1,9 @@
 		<style type="text/css">
+			head {
+				font-family: Helvetica, Arial, sans-serif;
+				color: blue;
+				padding: 0 10% 0 15%;
+				}
 			body {
 				font-family: Helvetica, Arial, sans-serif;
 				color: #665544;
