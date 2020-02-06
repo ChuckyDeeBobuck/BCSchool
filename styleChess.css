@@ -1,0 +1,85 @@
+body {
+background-image:url("https://image.freepik.com/free-vector/gradient-wallpaper-background_1159-5356.jpg");
+background-size:cover;
+display:flex;
+justify-content:center;
+flex-direction:column;
+}
+#title {
+position:fixed;
+top:10px;
+left:0px;
+padding:10px;
+margin:0px;
+width:100%;
+background-color:orange;
+text-align:center;
+z-index:10;
+font-family: 'WaltographRegular';
+font-weight: bold;
+font-style: regular;
+font-size:36px;
+}
+
+
+img {
+margin-left: 5px;
+margin-top:10px;
+}
+
+#container {
+margin-top:20%;
+margin-left:20%;
+margin-right:20%;
+margin-bottom:5%;
+}
+
+.row{
+position:relative;
+margin-left:15%;
+margin-right:5%;
+}
+
+.white{
+border: 1px solid black;
+width: 10%;
+height: 80px;
+background-color:yellow;
+float:left;
+}
+
+.black{
+border: 1px solid brown;
+width: 10%;
+height: 80px;
+background-color:#787878;
+float:left;
+}
+
+.clear{
+clear:both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+
+p {
+   font-family: 'WaltographRegular';
+   font-weight: normal;
+   font-style: normal;
+   margin-top: 10px;
+}
+
+#footer {
+border:solid 1px;
+padding: 10px;
+margin:10px;
+display:flex;
+justify-content:center;
+flex-direction:row;
+background-color:chartreuse;
+}
