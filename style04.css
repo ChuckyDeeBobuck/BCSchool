@@ -8,7 +8,10 @@ body {
 	background-image: url("Yellow.PNG");
 	background-size:cover;
 	width: 90%;
-	margin: 0 auto;}
+	margin: 0 auto;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;}
 #content {
 	background-color: lightyellow;
 	overflow: auto;}
