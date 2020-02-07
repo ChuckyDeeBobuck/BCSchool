@@ -6,6 +6,7 @@
 body {
 	background-color: lightblue;
 	background-image: url("Yellow.PNG");
+	background-size:cover;
 	width: 90%;
 	margin: 0 auto;}
 #content {
