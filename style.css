@@ -4,6 +4,9 @@
 				color: orange;
 				padding: 0 15% 0 15%;
 				}
+			header {
+				font-family: Helvetica, Arial, sans-serif;
+				color: blue;}
 			body {
 				font-family: Helvetica, Arial, sans-serif;
 				color: #665544;
