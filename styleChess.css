@@ -7,13 +7,13 @@ flex-direction:column;
 }
 #title {
 top:0px;
-left:120px;
-padding:10px;
+left:100px;
+padding:0px;
 margin:auto;
 width:100%;
 background-color:orange;
 text-align:center;
-z-index:80;
+z-index:10;
 font-family: 'WaltographRegular';
 font-weight: bold;
 font-style: regular;
