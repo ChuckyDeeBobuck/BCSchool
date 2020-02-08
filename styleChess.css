@@ -6,7 +6,6 @@ justify-content:center;
 flex-direction:column;
 }
 #title {
-position:fixed;
 top:10px;
 left:10px;
 padding:10px;
