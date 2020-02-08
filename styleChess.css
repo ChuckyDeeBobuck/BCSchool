@@ -5,6 +5,11 @@ display:flex;
 justify-content:center;
 flex-direction:column;
 }
+h1 {
+position:relative;
+margin-left:15%;
+margin-right:5%;  
+}
 #title {
 position:fixed;
 top:10px;
@@ -20,7 +25,6 @@ font-weight: bold;
 font-style: regular;
 font-size:36px;
 }
-
 
 img {
 margin-left: 5px;
