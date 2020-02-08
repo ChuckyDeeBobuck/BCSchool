@@ -1,5 +1,8 @@
 		<style type="text/css">
 
+body 
+{background-color: red;}
+
 			/* The sidebar menu */
 			.sidenav {
 			  height: 100%; /* Full-height: remove this if you want "auto" height */
