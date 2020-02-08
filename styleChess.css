@@ -6,11 +6,11 @@ justify-content:center;
 flex-direction:column;
 }
 #title {
-top:10px;
+top:0px;
 left:100px;
 padding:10px;
 margin:auto;
-width:90%;
+width:100%;
 background-color:orange;
 text-align:center;
 z-index:10;
