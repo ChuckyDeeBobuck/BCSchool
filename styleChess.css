@@ -5,11 +5,7 @@ display:flex;
 justify-content:center;
 flex-direction:column;
 }
-h1 {
-position:relative;
-margin-left:15%;
-margin-right:5%;  
-}
+
 #title {
 position:fixed;
 top:10px;
