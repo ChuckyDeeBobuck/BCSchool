@@ -6,22 +6,6 @@ justify-content:center;
 flex-direction:column;
 }
 
-#title {
-position:fixed;
-top:10px;
-left:0px;
-padding:10px;
-margin:0px;
-width:100%;
-background-color:orange;
-text-align:center;
-z-index:10;
-font-family: 'WaltographRegular';
-font-weight: bold;
-font-style: regular;
-font-size:36px;
-}
-
 img {
 margin-left: 5px;
 margin-top:10px;
@@ -111,4 +95,19 @@ p {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+#title {
+position:fixed;
+top:10px;
+left:0px;
+padding:10px;
+margin:0px;
+width:100%;
+background-color:orange;
+text-align:center;
+z-index:10;
+font-family: 'WaltographRegular';
+font-weight: bold;
+font-style: regular;
+font-size:36px;
 }
