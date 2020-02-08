@@ -78,15 +78,6 @@ p {
    margin-top: 10px;
 }
 
-#footer {
-border:solid 1px;
-padding: 10px;
-margin:10px;
-display:flex;
-justify-content:center;
-flex-direction:row;
-background-color:chartreuse;
-}
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
