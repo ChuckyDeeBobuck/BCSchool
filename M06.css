@@ -5,7 +5,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 20px 0 0 0;}
+  margin: 20px 0 0 0;
+  padding: 18px;
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
