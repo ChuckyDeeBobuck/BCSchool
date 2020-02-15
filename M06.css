@@ -5,8 +5,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 20px 0 0 0;
-  padding: 18px;
+	width: 90%;
+	margin: 0 auto;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
