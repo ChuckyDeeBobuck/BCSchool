@@ -1,0 +1,28 @@
+#errorMessages{
+
+color:red;
+
+}
+
+#outsideFieldset {
+	display:flex;
+	flex-direction:row;
+}
+
+aside {
+  display: block;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: white;
+  height: 300px; /* only for demonstration, should be removed */
+}
+h2 {
+	  text-align: center;
+}
+div {
+  line-height: 1.8;
+}
