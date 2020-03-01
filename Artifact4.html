@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="robots" content="noindex">
+	<meta name="Contact Us Form" content="noindex">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Artifact #4</title>
 	<link rel="stylesheet" type="text/css" href="Artifact4.css">
 	<script src="Artifact4.js"></script>
 </head>
 <body>
-
 <h2>CONTACT US FORM</h2>
 <!--Add the URL to your Thank you page -->
 <form action="ThankYou.html" method="get" name="myContact">
 <fieldset id="outsideFieldset">
 <div class="fieldDiv">
-    <article>
+<div class="row">
+  <div class="column" style="background-color:white;">
+	<div class="column" style="background-color:white;">
 	<input type="radio" id="male" name="gender" value="Mr.">
 	<label for="Mr.">Mr.</label>
 	<input type="radio" id="female" name="gender" value="Mrs.">
 	<label for="Mrs.">Mrs.</label><br> 
-	
 	<label for="firstname">First Name</label>
-	<input type="text" id="firstname">
+	<input type="text" id="firstname" maxlength =12 name = "firstname">
 	<br>
 	<label for="lastname">Last Name</label>
-	<input type="text" id="lastname">
+	<input type="text" id="lastname" maxlength =12 name = "lastname">
 	<br>
-	<label for="email">Email</label>
+	<label for="email">Email</label><br>
 	<input type="text" id="email">
 	<br>
 	<label for="phone">Phone Number</label>
-	<input type="number" id="phone" maxlength =15 name = "phone">
+	<input type="number" id="phone" maxlength = 15 name = "phone">
 	<br>
-
-
-
 	<h3>Tell Us More</h3>
 	<input type="checkbox" id="technology1" name="technology1" value="HTML">
 	<label for="technology1"> HTML </label>
@@ -43,25 +40,22 @@
 	<label for="technology2"> CSS </label>
 	<input type="checkbox" id="technology3" name="technology3" value="Java Script">
 	<label for="technology3"> Java Script </label><br><br>
-
-
 	<label>Which web technologies do you know? </label>
-
-
 	<h3>Your Account</h3>
 	<label for="username">Enter Username </label>
 	<input type="text" maxlength="12" id="username" name="username">
 	<br>
 	<label for="password">Enter Password </label>
 	<input type="password" maxlength="7" id="password" name="password">
-	
-</div>
-<div class="fieldDiv" id="rightDiv">
+	  </div>
+	</div>
+<fieldset id="innerFieldset">
+<div class="fieldDiv">
 	<fieldset>
 		<legend>Current Address</legend>
 		<label for="address">Enter Address</label>
 		<br>
-		<input type="text" name="address" id="address" size="50">
+		<input type="text" name="address" id="address" size="20">
 		<br>
 		<label for="city">Enter City</label>
 		<br>
@@ -81,29 +75,20 @@
 	</fieldset>
 	<fieldset>
 		<legend>Feel free to add comments</legend>
-		<textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
+		<textarea name="commentbox" id="commentbox" rows="16" cols="50"></textarea>
 	</fieldset>
-	<div id="buttons">
-	<br>
-	<br>
-	<br>
-		<input id="submit" type="submit" value="Submit">
-		<input id="cancel" type="submit" value="Cancel">
-	</div>
-</article>
-</div>
-	
-
-
-
 <br>
-
 </form>
-
+</div>
+  </div>
+  	<div id="buttons">
+	<br>
+		<button class="button button1">Submit</button>
+		<button class="button button2">Cancel</button>
+	</div>
+</div>
 <footer>
-<br>
-<br>
-<br>
+<br><br>
 <a href="https://jigsaw.w3.org/css-validator/check/referer">
 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
 </a>
@@ -113,5 +98,4 @@
 </fieldset>
 </footer>
 </body>
-
 </html>
