@@ -34,14 +34,14 @@
 				}
 			i, a, a:hover, a:visited {
 				color:darkgreen;}
-			.footer {
-			  position: fixed;
+			footer {
+
 			  left: 0;
 			  bottom: 0;
 			  width: 100%;
 			  font-size: 5px;
-			  background-color: red;
-			  color: white;
+
+			  color: black;
 			  text-align: center;
 			}
 			ul {
