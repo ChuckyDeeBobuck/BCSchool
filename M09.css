@@ -76,18 +76,25 @@ li a {
 li.complete a {
   background-image: none;}
 
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
 p {
-  background-color: #7f675c;
+  background-color: black;
   color: #e3dfdd; 
-  padding: 10px;
   margin: 20px auto;
   min-width: 20%; 
   max-width: 80%; 
   border-radius: 5px;
   text-align: center;
   text-shadow: -1px 1px 0 #333;
-  -webkit-box-shadow: inset 1px -1px 0 0 #a5948c;
-  box-shadow: inset 1px -1px 0 0 #a5948c;}
+
+  }
 
 .hot {
   background-color: #d7666b;

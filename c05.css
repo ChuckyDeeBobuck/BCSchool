@@ -7,7 +7,7 @@ body {
 	padding: 0;}
 
 #page {
-	background-color: #403c3b;
+	background-color: black;
 	margin: 0 auto 0 auto;
 	position:relative;
 	left: 75px;
@@ -67,6 +67,15 @@ li {
 	height: 50px;
 	padding-left: 1em;
 	padding-top: 10px;}
+	
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 11px;
+  color: black;
+  text-align: center;
+}
 
 .hot {
 	background-color: #d7666b;
@@ -100,8 +109,8 @@ li a {
     padding-right: 36px;}
 
 p {
-	color: #403c3b; 
-	background-color: #fff;
+	color: white; 
+	background-color: black;
 	border-radius: 5px;
 	text-align: center;
 	padding: 10px;
