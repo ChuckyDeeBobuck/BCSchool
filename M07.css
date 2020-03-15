@@ -167,16 +167,30 @@ p + h2 {
 
 /* footer */
 
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font: bold 18px Georgia, serif;
+  color: lightgreen;
+  text-shadow: 2px 2px #FF0000;
+  text-align: center;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #adffda;}
+  background-color: #adffda;
+  }
 
 #footer p {
   padding: 10px;
-  margin: 0;}
+  margin: 0;
+  }
+  
+
 
 .data {
   padding: 10px;}
