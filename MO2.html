@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<title>Forms</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+body {
+  background-color: lightyellow;
+}
+</style>
+</head>
+<body>
+			<div class = "sidenav">
+			<a href= "index.html">Main Page</a>
+			<a href= "CourseWork.html">Course Work</a>
+			<a href= "Artifacts.html">Artifacts</a>
+			<a href= "ModuleAssignments.html">Module Assignments</a>
+			<a href= "ContactMe.html">Contact Me</a>
+			<a href= "CreativePage.html">Creative Page</a>
+			<a href= "Reflection.html">Reflection</a>
+			<a href= "Artifact001.html">Create A Resume</a>
+			<a href= "M04ModuleAssignment.html">Liquid Layout</a>
+			<a href= "Artifact2Chessboard.html">Chessboard</a>
+			<a href= "M05-ModuleAssignment.html">First JS</a>
+			<a href= "M06-ModuleAssignment.html">Travel Worthy</a>
+			<a href= "M07.html">Hotel Availability</a>
+			<a href= "M08.html">Buy Groceries</a>
+			<a href= "Artifact4.html">Contact Us Form</a>
+			<a href= "Art5.html">Slideshow</a>
+			<a href= "M09.html">System Maintenance</a>
+		</div>
+<h1>Module 02: Tables and Forms </h1>
+
+    <h2>Created by Ray Wade <h2/><hr/>
+    <h3>Table Example </h3>
+     
+	<label>Source </label><a href="http://www.htmlandcssbook.com/code-samples/chapter-06/example.html">Chapter 6 Example</a></p>
+	
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th scope="col">Home starter hosting</th>
+					<th scope="col">Premium business hosting</th>
+			  	</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Disk space</th>
+					<td>250mb</td>
+					<td>1gb</td>
+				</tr>
+				<tr>
+					<th scope="row">Bandwidth</th>
+					<td>5gb per month</td>
+					<td>50gb per month</td>
+				</tr>
+				<tr>
+					<th scope="row">Email accounts</th>
+					<td>3</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<th scope="row">Server</th>
+					<td>Shared</td>
+					<td>VPS</td>
+				</tr>
+				<tr>
+					<th scope="row">Support</th>
+					<td>Email</td>
+					<td>Telephone and email</td>
+				</tr>
+				<tr>
+					<th scope="row">Setup</th>
+					<td>Free</td>
+					<td>Free</td>
+				</tr>
+				<tr>
+					<th scope="row">FTP accounts</th>
+					<td>1</td>
+					<td>5</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td colspan="2">Sign up now and save 10%!</td>
+				</tr>
+			</tfoot>
+		</table>
+
+    <h3><hr>Form Example <h3/>
+	
+		<label>Source </label><a href="http://www.htmlandcssbook.com/code-samples/chapter-07/example.html">Chapter 7 Example</a></p>
+
+
+	<fieldset>
+		<legend>Your Details:</legend>
+		<label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+		<label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+	</fieldset><br />
+	<fieldset>
+    <legend>Your Review:</legend>
+
+    <label>How did you hear about us?</label>
+
+	<select>
+	  <option value="google">Google</option>
+	  <option value="facebook">Facebook</option>
+	  <option value="twitter">Twitter</option>
+	  <option value="instagram">Instagram</option>
+	</select>
+
+	<form action="/action_page.php">
+	<p>Would you visit again?</p>
+	  <input type="radio" name="yes" value="Yes"> Yes
+	  <input type="radio" name="no" value="No"> No
+	  <input type="radio" name="maybe" value="Maybe"> Maybe<br>
+
+   </form> 
+  
+		
+	<textarea name="comments" cols="50" rows="10">Enter your comments...</textarea><br/>
+
+	<form action="/action_page.php">
+	  <input type="checkbox" name="vehicle1" value="Bike"> Sign me up for email updates<br/>
+	  <input type="submit" name="send_option" value="Submit Review"> 
+	  			</p>
+		</p>
+				</div>
+		<div class = "rightbar">
+		</div>
+	</body>
+	  <footer>
+  <p>Posted by: Ray Wade</p>
+  <p>Contact information: <a href="mailto:chuckBobuck@mackTheTruck.com">myEmail</a>.</p>
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</footer>
+</html>
+
+
